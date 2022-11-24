@@ -1,0 +1,49 @@
+@charset "utf-8";
+ul,
+li,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+li {
+  margin: 20px;
+}
+li > label {
+  width: 80px;
+  margin-right: 5px;
+  float: left; /* display: inline-block */
+  /* 태그가 인라인이면 width를 갖지 못함(컨텐츠만큼만 가질 수 있음) */
+}
+fieldset {
+  margin: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+th,
+tr,
+td {
+  border: 1px solid #000;
+}
+thead th,
+tfoot td {
+  background: salmon;
+}
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+label {
+  margin-right: 10px;
+}
+input {
+  margin-bottom: 10px;
+}
