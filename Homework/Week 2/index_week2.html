@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 2</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section>
+      <table>
+        <caption>
+          1. 이력서
+        </caption>
+        <tr>
+          <td rowspan="4" colspan="3">사진</td>
+          <td colspan="4">이력서</td>
+        </tr>
+        <tr>
+          <td rowspan="2">성명</td>
+          <td rowspan="2" colspan="2">홍길동</td>
+          <td>주민등록번호</td>
+        </tr>
+        <tr>
+          <td>970407-*******</td>
+        </tr>
+        <tr>
+          <td>생년월일</td>
+          <td colspan="3">1997년 4월 7일 (만 25세)</td>
+        </tr>
+        <tr>
+          <td colspan="3">주소</td>
+          <td>경기도 시흥시 *** ****</td>
+        </tr>
+        <tr>
+          <td colspan="3">호적관계</td>
+          <td>호주와의 관계</td>
+          <td>***의 자녀</td>
+          <td>호주성명</td>
+          <td>홍**</td>
+        </tr>
+        <tr>
+          <td colspan="3">년월일</td>
+          <td colspan="3">학력및경력사항</td>
+          <td>발령청</td>
+        </tr>
+        <tr>
+          <td>2021</td>
+          <td>07</td>
+          <td>26</td>
+          <td colspan="3">입사</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2021</td>
+          <td>09</td>
+          <td>15</td>
+          <td colspan="3">퇴사</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2021</td>
+          <td>12</td>
+          <td>10</td>
+          <td colspan="3">입사</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>07</td>
+          <td>29</td>
+          <td colspan="3">퇴사</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="3">*자격사항*</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2015</td>
+          <td>04</td>
+          <td>00</td>
+          <td colspan="3">컴퓨터그래픽스운용기능사 취득</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>04</td>
+          <td>00</td>
+          <td colspan="3">웹디자인기능사 취득</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="7">위 사항은 사실과 틀림없음을 증명합니다.<br />홍길동 (인)</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h6>2. 문제1</h6>
+      <form action="#" method="post">
+        <input type="text" id="userId" placeholder="아이디입력" /><br />
+        <textarea name="userQa" id="userQa" cols="30" rows="10" placeholder="질문내용입력"></textarea><br />
+        <span>취미: </span>
+        <label><input type="checkbox" id="hFish" value="fish" checked />낚시</label>
+        <label><input type="checkbox" id="hBook" value="book" />독서</label>
+        <label><input type="checkbox" id="hHealth" value="health" checked />운동</label>
+        <br />
+        <span>특기: </span>
+        <label><input type="radio" name="dance" id="dance" value="dance" />댄스</label>
+        <label><input type="radio" name="coin" id="coin" value="coin" checked />코노</label>
+        <label><input type="radio" name="game" id="game" value="game" />게임</label>
+      </form>
+    </section>
+
+    <section>
+      <h6>3. 문제2</h6>
+      <form action="#" method="post" onsubmit="alert('가입')">
+        <fieldset>
+          <legend>사용자</legend>
+          <ul>
+            <li>
+              <label>아이디<input type="text" id="userId2" /></label>
+            </li>
+            <li>
+              <label>이메일<input type="email" id="userEmail" /></label>
+            </li>
+            <li>
+              <label>비밀번호<input type="password" id="userPw" /></label>
+            </li>
+            <li>
+              <label>비밀번호확인<input type="password" id="userPw2" /></label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>이벤트수신동의</legend>
+          <label><input type="radio" name="yes" id="yes" value="yes" />동의함</label>
+          <label><input type="radio" name="no" id="no" value="no" />동의안함</label><br /><br />
+          <button type="submit">동의함</button>
+          <button type="button" onclick="alert('취소되었습니다')">취소</button>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
